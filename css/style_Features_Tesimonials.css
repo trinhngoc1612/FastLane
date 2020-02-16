@@ -1,0 +1,67 @@
+.sta_wrapper-icon{
+	height: 100px;
+	width: 100px;
+	border: 1px solid #f5f4f4;
+	border-radius: 50%;
+	background-color: #f5f4f4;
+	position: absolute;
+	bottom: -50px;
+}
+.sta_wrapper-icon img{
+	object-fit: scale-down;
+	width: 65px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.sta_wrapper-img-fea{
+	position: relative;
+	margin-bottom: 50px;
+}
+.sta_wrapper-fea .card{
+	border: 0;
+}
+.sta_wrapper-fea .card-body{
+	padding-left: 0;
+	padding-right: 0;
+}
+.sta_wrapper-fea .card-title{
+	font-size: 14px;
+	font-weight: bold;
+}
+.sta_wrapper-fea .card-text, .sta_wrapper-fea .card-link{
+	color: #8f8f8f;
+	font-size: 12px;
+}
+.sta_wrapper-fea .card-text{
+	text-align: justify;
+}
+.sta_wrapper-fea .card-link{
+	border-bottom: 1px solid #8f8f8f;
+}
+/*end features*/
+
+/*sta_testimonials*/
+.sta_testimonials{
+	background-color: #f5f4f4;
+}
+.sta_review{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.sta_review h2{
+	margin-bottom: 30px;
+	font-size: 24px;
+	line-height: 40px;
+}
+.fa-star{
+	color: #f5c200;
+}
+@media (max-width: 576px) {
+	.sta_review h2{
+		font-size: 20px;
+	}
+}
+/*end sta_testimonials*/

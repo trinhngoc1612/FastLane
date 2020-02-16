@@ -1,0 +1,83 @@
+.sta_subtitle{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+.sta_blog .sta_title{
+	margin-bottom: 20px;
+}
+.sta_blog .col-12 {
+	margin-top: 50px;
+}
+.sta_blog .card-title{
+	font-size: 20px;
+	text-align: center;
+}
+.sta_blog .card-body{
+	padding-left: 0;
+	padding-right: 0;
+}
+.sta_blog p{
+	text-align: justify;
+	color: #8f8f8f;
+}
+.sta_blog .card{
+	border:0;
+}
+.sta_readmore-blog {
+	color: #333;
+}
+
+/*footer*/
+.sta_footer {
+	background-color: #f5f4f4;
+	padding-bottom: 50px;
+}
+.sta_footer .col-12{
+	padding-top: 50px;
+}
+.sta_box-footer{
+	height: 40px;
+	margin-bottom: 20px;
+}
+.sta_box-footer>img{
+	object-fit: cover;
+	height: 100%;
+	width: unset;
+}
+.sta_list-footer {
+	color: #7e7e7e;
+	font-size: 12px;
+	font-weight: 600;
+	padding-left: 0;
+}
+.sta_list-footer b{
+	color: #333;
+}
+.sta_list-footer li{
+	line-height: 25px;
+}
+.sta_footer .sta_get-in-touch::before{
+	margin-left: 0 !important;
+}
+.sta_box-footer {
+	font-weight: 600;
+}
+.sta_media {
+	text-align: right;
+}
+.sta_media li{
+	display: inline-block;
+	width: 30px;
+}
+.sta_copyright{
+	color: #8f8f8f;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+@media (max-width: 576px) {
+	.sta_footer, .sta_media{
+		text-align: center;
+	}
+}
